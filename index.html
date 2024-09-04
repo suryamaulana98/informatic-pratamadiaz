@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css"
     />
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="wrap">
@@ -23,7 +24,12 @@
         <div class="conteudo">
           <h2 align="center">BIODATA PRIBADI</h2>
           <div class="conteudo-background"></div>
-          <p align="center"><img class="image-profile" src="WhatsApp Image 2024-08-22 at 10.39.30.jpeg" /></p>
+          <p align="center">
+            <img
+              class="image-profile"
+              src="WhatsApp Image 2024-08-22 at 10.39.30.jpeg"
+            />
+          </p>
           <h3 style="position: relative; text-align: center; margin-top: -8px">
             Diaz Rizki Pratama
           </h3>
@@ -42,7 +48,10 @@
           />
           <font style="position: relative; font-style: italic"
             ><center style="margin-left: 20px; margin-right: 20px">
-             Nama saya Diaz Rizki Pratama dengan NIM 240411100065, saat ini saya tinggal di Telang asri, Telang, Bangkalan. Dikarenakan sedang menempuh pendidikan di UTM. passion saya ada pada bidang tekhnologi
+              Nama saya Diaz Rizki Pratama dengan NIM 240411100065, saat ini
+              saya tinggal di Telang asri, Telang, Bangkalan. Dikarenakan sedang
+              menempuh pendidikan di UTM. passion saya ada pada bidang
+              tekhnologi. Silahkan menghubungi saya jika ada keperluan 0895379256353. <a href="https://www.instagram.com/prtma_diaz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">prtma_diaz</a>
             </center></font
           >
           >
@@ -69,9 +78,7 @@
               <tr align="justify">
                 <td>Alamat</td>
                 <td>:</td>
-                <td>
-                  Bayanan, Gesikan, Gantiwarno, Klaten, Jawa Tengah
-                </td>
+                <td>Bayanan, Gesikan, Gantiwarno, Klaten, Jawa Tengah</td>
               </tr>
               <tr align="justify">
                 <td>Nomor HP</td>
@@ -111,6 +118,19 @@
       </div>
       <!-- akhir bagian konten Blog -->
     </div>
+
+    <!-- baagian card -->
+    <h3 style="text-align: center; color: #dedede">BIODATA ANGKATAN 2024</h3>
+    <div class="search-container">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Cari berdasarkan nama..." style="display: none;"
+      />
+    </div>
+    <main id="friend_list"></main>
+    <div class="pagination" style="display: none;" id="pagination-container"></div>
+
     <script>
       document.getElementById("table").style.width = "100%";
       document.getElementById("h4").style.position = "relative";
